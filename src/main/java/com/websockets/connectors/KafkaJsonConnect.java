@@ -18,7 +18,14 @@ import com.websockets.utils.Params;
 
 public class KafkaJsonConnect implements Connector {
 
-	private MetaData metaDataLocal = null;
+
+	private MetaData metaDataLocal;
+
+
+	public KafkaJsonConnect(MetaData metaData) {
+		metaDataLocal = metaData;
+	}
+
 	private Random consumerPicker = new Random();
 
 	private StreamsConfig streamConfig = new StreamsConfig(

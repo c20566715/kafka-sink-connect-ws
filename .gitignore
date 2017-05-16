@@ -20,3 +20,10 @@ build/
 hs_err_pid*
 /build/
 /bin/
+*.xml
+*.iml
+.idea/
+out/
+.idea/modules.xml
+.idea/modules/kafka-sink-connect-ws.iml
+*.xml

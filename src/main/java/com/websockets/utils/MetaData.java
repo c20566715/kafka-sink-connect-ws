@@ -5,6 +5,35 @@ public class MetaData {
 	private String messageType;
 	private String consumerGroup;
 	private String topic;
+
+	public void setFromBeginning(Boolean fromBeginning) {
+		this.fromBeginning = fromBeginning;
+	}
+
+	public void setMessageType(String messageType) {
+		this.messageType = messageType;
+	}
+
+	public void setConsumerGroup(String consumerGroup) {
+		this.consumerGroup = consumerGroup;
+	}
+
+	public void setTopic(String topic) {
+		this.topic = topic;
+	}
+
+	public void setKafkaUrl(String kafkaUrl) {
+		this.kafkaUrl = kafkaUrl;
+	}
+
+	public void setZookeeperUrl(String zookeeperUrl) {
+		this.zookeeperUrl = zookeeperUrl;
+	}
+
+	public void setSchemaUrl(String schemaUrl) {
+		this.schemaUrl = schemaUrl;
+	}
+
 	private String kafkaUrl;
 	private String zookeeperUrl;
 	private String schemaUrl;

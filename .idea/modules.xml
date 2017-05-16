@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kafka-sink-connect-ws.iml" filepath="$PROJECT_DIR$/.idea/modules/kafka-sink-connect-ws.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kafka-sink-connect-ws_jar.iml" filepath="$PROJECT_DIR$/.idea/modules/kafka-sink-connect-ws_jar.iml" group="kafka-sink-connect-ws" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kafka-sink-connect-ws_main.iml" filepath="$PROJECT_DIR$/.idea/modules/kafka-sink-connect-ws_main.iml" group="kafka-sink-connect-ws" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kafka-sink-connect-ws_test.iml" filepath="$PROJECT_DIR$/.idea/modules/kafka-sink-connect-ws_test.iml" group="kafka-sink-connect-ws" />
+    </modules>
+  </component>
+</project>

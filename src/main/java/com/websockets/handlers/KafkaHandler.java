@@ -1,19 +1,17 @@
 package com.websockets.handlers;
 
-import java.net.InetSocketAddress;
-import java.net.UnknownHostException;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Set;
-
-import org.java_websocket.WebSocket;
-import org.java_websocket.handshake.ClientHandshake;
-import org.java_websocket.server.WebSocketServer;
-
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.websockets.connectors.KafkaConnector;
 import com.websockets.utils.MetaData;
 import com.websockets.utils.Params;
+import org.java_websocket.WebSocket;
+import org.java_websocket.handshake.ClientHandshake;
+import org.java_websocket.server.WebSocketServer;
+
+import java.net.InetSocketAddress;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Set;
 
 public class KafkaHandler extends WebSocketServer {
 
